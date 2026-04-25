@@ -9,8 +9,12 @@ body {
 	border: 1px groove #eee;
 }
 
+.user-profile {
+    width: 300px;
+    height: 300px;
+}
 
-#main-profile {
+.main-profile {
     width: 100px;
     height: 100px;
 }

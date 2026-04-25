@@ -1,0 +1,35 @@
+body {
+	background-color: #eee;
+}
+
+.user-avatar {
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	border: 1px groove #eee;
+}
+
+.connections-avatar-list img {
+	margin-left: -15px;
+}
+
+.connections-avatar-list span {
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+	margin-left: -15px;
+}
+
+.accordion-body img {
+    width: 100px;
+    height: 100px;
+}
+
+.accordion-body .col-md-3 {
+    padding: 10px;
+}
+
+.accordion-body .card {
+    overflow: hidden;
+}

@@ -9,6 +9,16 @@ body {
 	border: 1px groove #eee;
 }
 
+
+#main-profile {
+    width: 100px;
+    height: 100px;
+}
+
+.connections-avatar-list {
+	margin-left: 15px;
+}
+
 .connections-avatar-list img {
 	margin-left: -15px;
 }
@@ -19,11 +29,7 @@ body {
 	height: 30px;
 	border-radius: 50%;
 	margin-left: -15px;
-}
-
-.accordion-body img {
-    width: 100px;
-    height: 100px;
+	text-align: center;
 }
 
 .accordion-body .col-md-3 {
@@ -32,4 +38,11 @@ body {
 
 .accordion-body .card {
     overflow: hidden;
+}
+
+.accept-ignore-btns {
+	margin-top: 10px;
+	display: flex;
+	justify-content: flex-end;
+	gap: 8px;
 }
